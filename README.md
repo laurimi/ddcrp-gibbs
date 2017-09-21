@@ -65,4 +65,4 @@ cd data
 ```
 The output will be written to the current folder.
 The figure below compares the true clusters (left) and one of the clusterings drawn from the ddCRP (right).
-![clustering example](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+[[https://github.com/username/ddcrp-gibbs/blob/master/fig/example.png|alt=clustering example]]
