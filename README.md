@@ -1,6 +1,6 @@
 # A Gibbs sampler for the Distance Dependent Chinese Restaurant Process (ddCRP)
 This is a C++ implementation of a Gibbs sampler for the Distance Dependent Chinese Restaurant Process (ddCRP), originally introduced in:
-Blei, D.M., Frazier, P.I.: "Distance Dependent Chinese Restaurant Process", Journal of Machine Learning Research 12 (2011):2383-2410.
+[Blei, D.M., Frazier, P.I.: "Distance Dependent Chinese Restaurant Process", Journal of Machine Learning Research 12 (2011):2383-2410](http://www.cs.columbia.edu/~blei/papers/BleiFrazier2011.pdf).
 
 This implementation was used to obtain the results presented in: [Lauri, M., Frintrop, S.: "Object Proposal Generation Applying the Distance Dependent Chinese Restaurant Process", in Proc. 20th Scandinavian Conference on Image Analysis, Tromsö, Norway, June 12--14, 2017](https://doi.org/10.1007/978-3-319-59126-1_22).
 
@@ -65,4 +65,5 @@ cd data
 ```
 The output will be written to the current folder.
 The figure below compares the true clusters (left) and one of the clusterings drawn from the ddCRP (right).
+
 ![clustering example](/fig/example.png?raw=true)
