@@ -61,7 +61,7 @@ For the diagonal entries we want the self-link likelihoods of each data point. H
 We can run the clustering by
 ```
 cd data
-./../bin/ddcrp_clustering_example -f data.csv -S covar.csv -m mean.csv -l log_decay.csv
+./../bin/ddcrp-gibbs-example -f data.csv -S covar.csv -m mean.csv -l log_decay.csv
 ```
 The output will be written to the current folder.
 The figure below compares the true clusters (left) and one of the clusterings drawn from the ddCRP (right).
